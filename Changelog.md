@@ -2,6 +2,14 @@
 
 This version does not contain any functional changes. It only updates third-party dependencies.
 
+## Important: Username change
+
+If you deploy via Docker, or you have a script that downloads binaries from this GitHub repo, please take note that the new username this repo is hosted under is `skyschub`.
+
+If you download from GitHub or if you use `ghcr.io`, the URLs should continue working and redirect you to the new username. I have perma-parked the old username to avoid future security incidents from someone taking over the name. However, if you use Docker Hub, the old namespace will be frozen permanently and you will not receive new updates.
+
+Please check our image names or download urls, and adjust accordingly!
+
 # 1.4.5
 
 This version does not contain any functional changes. It only updates third-party dependencies.

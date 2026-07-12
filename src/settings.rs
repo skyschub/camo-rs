@@ -62,7 +62,7 @@ pub struct Settings {
     #[clap(
         long = "header-via",
         env = "CAMO_HEADER_VIA",
-        default_value = "camo-rs asset proxy (+https://github.com/denschub/camo-rs)"
+        default_value = "camo-rs asset proxy (+https://github.com/skyschub/camo-rs)"
     )]
     pub header_via: String,
 

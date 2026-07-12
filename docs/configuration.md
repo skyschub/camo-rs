@@ -19,7 +19,7 @@ Alternatively, you can set `--allow-all-types` / `CAMO_ALLOW_ALL_TYPES` (default
 
 ## Other settings
 
-- `--header-via` / `CAMO_HEADER_VIA` - The string used to identify this `camo-rs` instance in upstream requests. (default: `camo-rs asset proxy (+https://github.com/denschub/camo-rs)`)
+- `--header-via` / `CAMO_HEADER_VIA` - The string used to identify this `camo-rs` instance in upstream requests. (default: `camo-rs asset proxy (+https://github.com/skyschub/camo-rs)`)
 - `--length-limit` / `CAMO_LENGTH_LIMIT` - The maximum `content-length` proxied by `camo-rs`. (default: `52428800` (50 MiB))
 - `--listen` / `CAMO_LISTEN` - IP and Port this application should listen on. (default: `[::]:8081`)
 - `--threads` / `CAMO_THREADS` - The number of worker threads to use. (default: the number of available CPU cores)

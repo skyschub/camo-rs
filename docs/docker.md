@@ -1,19 +1,19 @@
 # Deploying `camo-rs` with Docker
 
-`camo-rs` containers are [published on Docker Hub as `denschub/camo-rs`](https://hub.docker.com/r/denschub/camo-rs) and on the [GitHub Container Registry as `ghcr.io/denschub/camo-rs`](https://github.com/denschub/camo-rs/pkgs/container/camo-rs).
+`camo-rs` containers are [published on Docker Hub as `skyschub/camo-rs`](https://hub.docker.com/r/skyschub/camo-rs) and on the [GitHub Container Registry as `ghcr.io/skyschub/camo-rs`](https://github.com/skyschub/camo-rs/pkgs/container/camo-rs).
 
 ## Available tags
 
 Stable releases are available as tags based on their version number:
 
-- `denschub/camo-rs:latest` always points to the current release version,
-- `denschub/camo-rs:1` always points to the latest release in the `1.*.*` major version line,
-- `denschub/camo-rs:1.0` always points to the latest release in the `1.0.*` minor version line,
-- `denschub/camo-rs:1.0.2` points to a specific version.
+- `skyschub/camo-rs:latest` always points to the current release version,
+- `skyschub/camo-rs:1` always points to the latest release in the `1.*.*` major version line,
+- `skyschub/camo-rs:1.0` always points to the latest release in the `1.0.*` minor version line,
+- `skyschub/camo-rs:1.0.2` points to a specific version.
 
 For production deployments, it is recommended that you pin a major version, so you don't have to update your setup for updates, but you don't get new major versions that may contain breaking changes.
 
-Additionally, the `denschub/camo-rs:develop` tag always points to the current development version, i.e. the `main` branch. That maybe useful for testing, but it's not recommended to deploy that into production. :)
+Additionally, the `skyschub/camo-rs:develop` tag always points to the current development version, i.e. the `main` branch. That maybe useful for testing, but it's not recommended to deploy that into production. :)
 
 ## Health check
 
@@ -39,7 +39,7 @@ To use `camo-rs` with Docker Compose, you can use a configuration close to this:
 version: "3"
 services:
   camo:
-    image: denschub/camo-rs:latest
+    image: skyschub/camo-rs:latest
     restart: always
     environment:
       - CAMO_KEY=supersecretkey
