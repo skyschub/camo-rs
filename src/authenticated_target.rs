@@ -1,7 +1,7 @@
 //! Processes and validates encoded target parameters from a Camo URL, and can
 //! be used to generate Camo URLs as well.
 
-use hmac::{Hmac, Mac};
+use hmac::{Hmac, KeyInit, Mac};
 use sha1::Sha1;
 
 use crate::errors::{AuthParsingError, AuthValidationError};
