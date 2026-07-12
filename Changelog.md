@@ -1,4 +1,4 @@
-# 1.4.6 (unreleased)
+# 1.4.6
 
 This version does not contain any functional changes. It only updates third-party dependencies.
 
