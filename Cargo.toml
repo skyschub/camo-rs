@@ -3,7 +3,7 @@ name = "camo-rs"
 description = "An HTTP proxy for asset files."
 authors = ["Sky Schubert <sky@overengineer.dev>"]
 repository = "https://github.com/skyschub/camo-rs"
-version = "1.4.6"
+version = "1.4.7"
 edition = "2024"
 
 default-run = "camo"

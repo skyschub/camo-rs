@@ -1,14 +1,14 @@
-# 1.4.6
+# 1.4.7
 
 This version does not contain any functional changes. It only updates third-party dependencies.
 
 ## Important: Username change
 
-If you deploy via Docker, or you have a script that downloads binaries from this GitHub repo, please take note that the new username this repo is hosted under is `skyschub`.
+If you deploy via Docker, or you have a script that downloads binaries from the repo, please note that my new username is `skyschub`. I have perma-parked the old username on GitHub and Docker Hub to avoid future security incidents from someone taking over the name. However, the old namespace will be frozen permanently and you will not receive new updates.
 
-If you download from GitHub or if you use `ghcr.io`, the URLs should continue working and redirect you to the new username. I have perma-parked the old username to avoid future security incidents from someone taking over the name. However, if you use Docker Hub, the old namespace will be frozen permanently and you will not receive new updates.
+Please adjust your image names and download URLs accordingly!
 
-Please check our image names or download urls, and adjust accordingly!
+Note: This release is identical to the previously released `1.4.6`. However, in the changelog and release announcement for that version, I proclaimed that the GitHub Container registry should redirect to the new username automatically. I was wrong, it appears like GitHub is still functionally broken - and the old image at the old username is stuck at `1.4.5` forever. To make sure that people reading the release email actually know about this, I decided to re-publish the same code as `1.4.7`.
 
 # 1.4.5
 
